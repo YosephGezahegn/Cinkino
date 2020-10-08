@@ -1,0 +1,31 @@
+.column {
+    float: left;
+    width: 20%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.movie{
+    width: 250px;
+    margin: 1rem;
+    background-color: #222254;
+    color: white;
+}
+
+
+.movie-container{
+    display: flex;
+    flex-wrap: wrap;
+    border-block-end-color: inherit;
+}
+.movie-info{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+
+}
